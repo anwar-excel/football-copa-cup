@@ -1,6 +1,9 @@
 
 
-
+body{
+  margin: 0;
+  padding: 0;
+}
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #2D25A0;
@@ -49,7 +52,7 @@
   
     height: 60%;
   } */
-  section{
+  .first{
     display:flex;
     background-color: #2D25A0;
     width: 100%;
@@ -63,11 +66,16 @@
 .header-text{
   font-family: 'Poppins', sans-serif;
   color: white;
-  margin: 120px 140px;
+  /* margin: 120px 140px; */
+  margin-top: 120px;
+  margin-bottom: 10px;
+  margin-left: 140px;
+  margin-right: 140px;
   font-size: 40px;
   
 }
 .first-image{
+  margin-top: 20px;
     background-image: url(images/shapes/7.png);
 }
 .half-width img{
@@ -75,9 +83,59 @@
     width: 80%;
 }
 .watch-live{
+  font-family: 'Poppins', sans-serif;
   color: white;
   text-decoration: none;
-  background-color: #
+  background-color: #E02C6D;
+  font-size: 30px;
+  margin: 120px 140px;
+  padding: 0 5px;
+}
+.player-container{
+  padding-top: 70px;
+}
+.player{
+display:grid;
+grid-template-columns: repeat(3, 1fr);
+margin-left: 150px;
+margin-right: 145px;
+column-gap: 30px;
+row-gap: 27px;
+}
+.player-detail{
+  width: 330px;
+  height: 474px;
+  background-color: white;
+  box-shadow: 0 0 20px 10px gray;
+}
+.player-detail img{
+  width: 30%;
+  height: 30%;
+  align-items: center;
+  margin: 10px 20px 10px 10px;
+}
+.third{
+  display:flex;
+  background-color: white;
+  width: 100%;
+  height: 450px;
+  margin-bottom: 10%;
+
+}
+.third-text{
+  color:#2D25A0;
+  margin-top: 120px;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+p{
+  text-align: justify;
+  margin-top: 8px;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-bottom: 20px;
 }
   /* footer style */
   /* footer{
@@ -86,10 +144,12 @@
   .logo-align{
     
     display: block;
-    /* margin-left: auto;
-    margin-right: auto; */
-    margin: 0 130px;
-    
+    margin-left: 500px;
+    margin-top:  100px;
+  }
+  .logo-align img{
+    width: 30%;
+    height: 20%;
   }
   .social-icons{
     
@@ -113,6 +173,7 @@
     padding-left: 10px;
     text-align: center;
     font-size: 18px;
+    margin-bottom: 10%;
     
   }
   
