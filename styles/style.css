@@ -1,0 +1,118 @@
+
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #2D25A0;
+    overflow: hidden;
+    
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .text{
+      color: wheat;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  /* header{
+    background-color: #2D25A0;
+    width: 100%;
+    height: 300px;
+    display:flex;
+  }
+  .header-text{
+    color: white;
+    width: 50%;
+  }
+  .header-image{
+    align-items: center;
+    padding: 20px;
+    width: 50%;
+  
+    height: 60%;
+  } */
+  section{
+    display:flex;
+    background-color: #2D25A0;
+    width: 100%;
+    height: 450px;
+    margin-bottom: 10%;
+}
+.half-width{
+    width: 50%
+    
+}
+.header-text{
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  margin: 120px 140px;
+  font-size: 40px;
+  
+}
+.first-image{
+    background-image: url(images/shapes/7.png);
+}
+.half-width img{
+    
+    width: 80%;
+}
+.watch-live{
+  color: white;
+  text-decoration: none;
+  background-color: #
+}
+  /* footer style */
+  /* footer{
+    align-items: center;
+  } */
+  .logo-align{
+    
+    display: block;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 0 130px;
+    
+  }
+  .social-icons{
+    
+    display: flex;
+    width: 10%;
+    
+    
+  }
+  .social-icons{
+    display:block;
+    text-align: center;
+    width: 100% ;
+    
+    padding: 0 20px;
+  }
+  .social-icons i{
+    padding: 10px;
+    padding-right: 20px;
+  }
+  .copyright{
+    padding-left: 10px;
+    text-align: center;
+    font-size: 18px;
+    
+  }
+  
