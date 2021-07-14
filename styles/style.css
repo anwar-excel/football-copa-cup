@@ -93,6 +93,7 @@ body{
 }
 .player-container{
   padding-top: 70px;
+  padding-bottom: 70px;
 }
 .player{
 display:grid;
@@ -106,14 +107,20 @@ row-gap: 27px;
   width: 330px;
   height: 474px;
   background-color: white;
-  box-shadow: 0 0 20px 10px gray;
+  box-shadow: 0 0 20px 5px gray;
 }
 .player-detail img{
-  width: 30%;
-  height: 30%;
+  width: 94%;
+  height: 45%;
   align-items: center;
-  margin: 10px 20px 10px 10px;
+  margin: 10px 10px 10px 10px;
 }
+.player-text{
+  margin-left: 10px;
+}
+/* .player-image{
+  padding-left: 70px;
+} */
 .third{
   display:flex;
   background-color: white;
